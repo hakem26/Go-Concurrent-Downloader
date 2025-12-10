@@ -1,0 +1,61 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, coverage
+*.test
+coverage.out
+
+# Output of the go build tool
+/bin/
+/pkg/
+
+# Dependency directories (vendor if you keep vendor in VCS, حذفش نکن اگر می‌خوای vendor در repo باشه)
+vendor/
+
+# Editor/IDE
+.idea/
+*.iml
+*.iws
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.yml
+
+# Logs and temp
+*.log
+tmp/
+temp/
+*.tmp
+
+# Go modules / cache (optional local caches)
+Godeps/
+.gopath/
+*.modcache
+
+# JetBrains specific
+.idea/*
+!.idea/inspectionProfiles
+!.idea/vcs.xml
+
+# VSCode (اگر گذرا استفاده می‌کنی)
+.vscode/
+
+# Optional: coverage and generated code
+coverage.txt
+*_generated.go
+
+# go-projects-files
+go-logo-white.svg
+main
